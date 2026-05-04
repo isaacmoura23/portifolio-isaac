@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ExternalLink, Heart } from "lucide-react"
+import { Github, Linkedin, Mail, ExternalLink } from "lucide-react"
 
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/isaacmoura23", handle: "@isaacmoura23", icon: Github },
@@ -68,17 +68,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 sm:mt-20 flex flex-col items-center justify-between gap-6 border-t border-border/30 pt-8 sm:pt-10 sm:flex-row animate-fade-in stagger-4">
-          <div className="flex items-center gap-2.5 font-mono text-xs text-muted-foreground">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
-            </span>
-            <span>Forged with</span>
-            <Heart className="h-3.5 w-3.5 text-destructive animate-pulse" />
-            <span>& code</span>
-          </div>
-
-          <div className="flex items-center gap-4">
+<div className="flex items-center gap-4">
             {socialLinks.slice(0, 3).map((link) => (
               <a
                 key={link.label}
