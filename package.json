@@ -1,17 +1,17 @@
 {
-  "name": "code-forge",
+  "name": "portifolio-isaac",
   "version": "0.1.0",
   "private": true,
-  "description": "A modern code editor built with Next.js and Radix UI.",
+  "description": "Portfólio profissional de Isaac Moura — Full Stack Developer",
   "keywords": [
-    "nextjs",
-    "radix-ui",
-    "code editor",
-    "react",
-    "typescript",
-    "tailwindcss"
+    "portfolio",
+    "fullstack",
+    "java",
+    "spring-boot",
+    "angular",
+    "nodejs"
   ],
-  "author": "Ehsan Ghaffar",
+  "author": "Isaac Moura",
   "scripts": {
     "analyze": "next experimental-analyze",
     "build": "next build",
